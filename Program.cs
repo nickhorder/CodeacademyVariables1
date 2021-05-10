@@ -13,14 +13,11 @@ namespace Codeacademy_C__Variables1
             double weight = 65.22;
             bool spayed = true;
             // Print variables to the console
-            Console.WriteLine(name);
-            //Console.Write(", who is a ");
-            Console.WriteLine(breed);
-            //Console.Write(", is the age of ");
-            Console.WriteLine(age);
-            //Console.Write(". the dog weighs ");
-            Console.WriteLine(weight);
-            Console.WriteLine(spayed);
+            Console.Write(name + ", who is a ");
+            Console.Write(breed + ", is the age of ");
+            Console.Write(age + ". the dog weighs ");
+            Console.Write(weight + "kg. ");
+            Console.WriteLine("have they been spayed?: " + spayed);
         }
     }
 }
